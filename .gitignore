@@ -9,16 +9,13 @@ wheels/
 # Virtual environments
 .venv
 
-# IDE
-!.vscode/
-
-# Ruff
-.ruff_cache
-
 # pixi environments
 .pixi
-*.egg-info
 
 # Marimo-generated files
 **/__marimo__/session/
 **/__marimo__/cache/
+
+# Downloaded YOLO weights
+*.pt
+models/
