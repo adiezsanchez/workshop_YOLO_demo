@@ -19,6 +19,8 @@ pillow = "*"
 
 [tool.pixi.tasks]
 demo = "marimo edit src/app.py"
+object = "python src/object.py"
+seg = "python src/seg.py"
 
 [tool.marimo.save]
 autosave = "after_delay"
